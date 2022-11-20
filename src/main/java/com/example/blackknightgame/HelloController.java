@@ -72,10 +72,7 @@ public class HelloController {
                 //System.out.println(BlackKnight.allKnights[0].toString());
                 blackKnightText1.setText("BlackKnight <<" + BlackKnight.allKnights[temp].getName() + ">> was hit!");
                 blackKnightText2.setText(BlackKnight.allKnights[temp].strike());
-                blackKnightText3.setText("Number of arms: " + BlackKnight.allKnights[temp].getArms() + "\n" +
-                        "Number of legs: " + BlackKnight.allKnights[temp].getLegs() + "\n" +
-                        "Number of Head: " + BlackKnight.allKnights[temp].getHead() + "\n\n" +
-                        "Number of knights alive: " + BlackKnight.numOfAliveKnights + "\n" +
+                blackKnightText3.setText("Number of knights alive: " + BlackKnight.numOfAliveKnights + "\n" +
                         "Number of knights dead: " + BlackKnight.numOfDeadKnights + "\n" +
                         BlackKnight.allKnights[temp].toString());
 
